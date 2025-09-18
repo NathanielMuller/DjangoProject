@@ -1,6 +1,7 @@
-from django.urls import path,
+from django.urls import path
+from .views import principal
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-   
+    path('principal', principal, name='principal')
+    
 ]
